@@ -7,7 +7,7 @@ The objective of this assignment is to write a MIPS code for viewing, editing, a
 for Computer Architecture Course
 
 # Specifications
-Calendar Format:
+### Calendar Format:
 The calendar will be stored in text file with the following format:
 1. Each line represents a day
 2. The line starts with an index indication the day in the month
@@ -16,7 +16,7 @@ The calendar will be stored in text file with the following format:
 5. To reserve a slot, provide the start and the end time with the type of appointments separated by a comma. For example, the following line have the following appointments:
 11: 8-9 L, 10-12 OH, 12-2 M
 From 8 to 9 there is a lecture, from 10 to 12 reserved for an office hour, and from 12-2 for meeting. The other slots are free.
-Functionality:
+### Functionality:
 The program will provide the following functionality:
 1. View the calendar: the program will let the user view the calendar per day or per set of days or for a given slot in a given day.
 2. View Statistics: number of lectures (in hours), number of OH (in hours), and the number of Meetings (in hour). In addition, the program will show the average lectures per day and the ratio between total number of hours reserved for lectures and the total number of hours reserved OH.
