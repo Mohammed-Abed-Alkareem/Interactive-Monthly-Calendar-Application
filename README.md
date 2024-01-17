@@ -49,6 +49,6 @@ Suppose we have the following two days in the text file:
 This will be translated into the linked list structure as follows:
 
 Linked List Structure:
-![Linked List](/pic/list.png)
+![Linked List](/pic/linkedlist.png)
 
 
