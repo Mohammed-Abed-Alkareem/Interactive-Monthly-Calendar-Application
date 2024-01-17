@@ -140,6 +140,14 @@ The exit process ensures a graceful termination of the program, allowing users t
 
 Thank you for using the Interactive Monthly Calendar Application!
 
+# Compilation and Execution
+
+To compile and run the Interactive Monthly Calendar Application, you can use the provided compilation tool.
+
+**Download the compilation tool:**
+   - [Mars4_5](/Project Files/Mars4_5.jar)
+
+
 # Authors
 
 ### [Mohammed Abed Alkareem]
