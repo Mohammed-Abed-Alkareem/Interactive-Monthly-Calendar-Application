@@ -75,7 +75,7 @@ Note: Hours are converted to 24-hour format before being stored in the linked li
 
 ### View Statistics
 
-- **Average Lectures per Day:**
+- **Total Lectures (L) Duration:**
   - Iterates through the linked list, counting the number of lecture appointments and summing their durations (end time - start time).
 
 - **Total Office Hours (OH) Duration:**
