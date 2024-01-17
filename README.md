@@ -93,3 +93,57 @@ Note: Hours are converted to 24-hour format before being stored in the linked li
 
 These statistics provide valuable insights into the distribution and balance of different appointment types within the calendar.
 
+### Add a New Appointment
+
+To add a new appointment, the program prompts the user to enter the required information:
+- **Day Number:** Enter the day index for the new appointment (must be between 1 and 31).
+- **Start Time:** Specify the start time for the appointment (in 12-hour format, between 8 AM and 4 PM).
+- **End Time:** Specify the end time for the appointment (in 12-hour format, between 9 AM and 5 PM). The end time must be after the start time.
+- **Appointment Type (Lecture [L], Office Hours [OH], or Meeting [M]):** Choose the type of appointment.
+
+The program validates the input values:
+- Ensures the day index is within a valid range (1 to 31).
+- Validates the start and end times, ensuring they are within the working hours (8 AM to 5 PM) and that the end time is after the start time.
+
+If any of the input values are invalid, the program prompts the user to re-enter the correct information for that specific field before proceeding to the next. This iterative process ensures that only valid and accurate details are accepted for the new appointment.
+
+Once valid input is provided for all fields, the program checks for conflicts with existing appointments in the calendar. If a conflict is detected, the user is notified with a message, and the appointment is not added.
+
+If there are no conflicts, the new appointment is added to the linked list, and the calendar file is updated to reflect the changes. The added appointment follows the same format as other entries in the calendar file. 
+
+The user receives appropriate feedback messages throughout the process, ensuring a seamless and error-free addition of appointments.
+
+### Delete an Appointment
+
+To delete an appointment, the program prompts the user to enter the required information:
+- **Day Number:** Enter the day index for the appointment to be deleted (must be between 1 and 31).
+- **Start Time:** Specify the start time of the appointment to be deleted (in 12-hour format, between 8 AM and 4 PM).
+- **Appointment Type (Lecture [L], Office Hours [OH], or Meeting [M]):** Choose the type of appointment to be deleted.
+
+The program validates the input values:
+- Ensures the day index is within a valid range (1 to 31).
+- Validates the start and end times, ensuring they are within the working hours (8 AM to 5 PM) and that the end time is after the start time.
+
+If any of the input values are invalid, the program prompts the user to re-enter the correct information for that specific field before proceeding to the next. This iterative process ensures that only valid and accurate details are accepted for the deletion process.
+
+Once valid input is provided for all fields, the program checks if an appointment matching the specified criteria exists. If the appointment is found, it is deleted from the linked list, and the calendar file is updated to reflect the changes. The deleted appointment follows the same format as other entries in the calendar file.
+
+If no matching appointment is found, the user is notified with a message indicating that no appointment exists for the provided details.
+
+The user receives appropriate feedback messages throughout the process, ensuring a smooth and accurate deletion of appointments.
+
+### Exit the Program
+
+To exit the program, the user can choose to terminate the application at any point. Upon selecting the exit option, the program displays a farewell message to notify the user that the application is closing. The message expresses gratitude for using the Interactive Monthly Calendar Application and encourages the user to return for future calendar management needs.
+
+The exit process ensures a graceful termination of the program, allowing users to conclude their session smoothly.
+
+Thank you for using the Interactive Monthly Calendar Application!
+
+# Authors
+
+### [Mohammed Abed Alkareem]
+- [GitHub Profile](https://github.com/Mohammed-Abed-Alkareem)
+
+Thank you for using the Interactive Monthly Calendar Application!
+
