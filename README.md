@@ -51,4 +51,14 @@ This will be translated into the linked list structure as follows:
 Linked List Structure:
 ![Linked List](/pic/linkedlist.png)
 
+Note: Hours are converted to 24-hour format before being stored in the linked list.
 
+
+### Viewing Appointments
+
+#### View by Day or Set of Days
+
+1. Users input day numbers or a set of days separated by commas (e.g., "2" or "3,7,14").
+2. The program splits, parses, and stores the input in the stack.
+3. The program then pops each day from the stack, searches the linked list, and prints the appointments for the specified day(s).
+4. If a day is not within the month range, the program notifies the user.
