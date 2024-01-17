@@ -62,3 +62,34 @@ Note: Hours are converted to 24-hour format before being stored in the linked li
 2. The program splits, parses, and stores the input in the stack.
 3. The program then pops each day from the stack, searches the linked list, and prints the appointments for the specified day(s).
 4. If a day is not within the month range, the program notifies the user.
+
+#### View by Specific Slot
+
+1. Users input a specific day, start time, and end time sequentially.
+2. The program validates each input before proceeding to the next, ensuring accuracy and avoiding invalid entries.
+3. The program first validates the day input, prompting the user until a valid day within the month is entered.
+4. Then, it validates the start time input, continuously prompting until a valid value between 8 AM and 4 PM is provided.
+5. Finally, the end time input is validated, ensuring a valid value between 9 AM and 5 PM.
+6. Once all valid inputs are received, the program iterates through the linked list, checking for any appointments that intersect with the specified slot.
+7. Appointments with intersections are printed, providing a clear overview of activities scheduled during the specified time slot.
+
+### View Statistics
+
+- **Average Lectures per Day:**
+  - Iterates through the linked list, counting the number of lecture appointments and summing their durations (end time - start time).
+
+- **Total Office Hours (OH) Duration:**
+  - Similar to lectures, iterates through the linked list, counting the number of office hour appointments and summing their durations.
+  
+- **Total Meetings Duration:**
+  - Iterates through the linked list, counting the number of meeting appointments and summing their durations.
+ 
+- **Average Lectures per Day:**
+  - The program calculates the total number of days represented in the calendar file.
+  - Calculates the average by dividing the total lecture hours by the number of days.
+ 
+- **Ratio of Lecture Hours to Office Hour Hours:**
+  - Calculates the ratio by dividing the total number of hours reserved for lectures by the total number of hours reserved for office hours.
+
+These statistics provide valuable insights into the distribution and balance of different appointment types within the calendar.
+
